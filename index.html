@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Maps Demo with Directions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="demo">
+        <h1 style="text-align: center;">Optimised Delivery Route</h1>
+    <div id="container">
+        <div id="map"></div>
+        <div id="controls">
+            <div id="inputSection">
+                <label for="locationInput">Location:</label>
+                <input type="text" id="locationInput">
+                <div id="buttons">
+                    <button id="clearInput">Clear Input</button>
+                    <button id="addLocation">Add Location</button>
+                    <button id="submitLocations">Submit Locations</button>
+                </div>
+            </div>
+            <div id="directionsPanel"></div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQMWJyTt27ZaJM96QWyRN06ZkOKDWVY1I&callback=initMap" defer></script>
+</body>
+</html>
